@@ -20,14 +20,14 @@ body{font-family:'DM Sans',sans-serif;font-weight:300;color:var(--navy);backgrou
 .label{font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
 .container{max-width:1080px;margin:0 auto;padding:0 24px}
 .section{padding:80px 0}
-
+ 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.07);padding:0 24px;height:60px;display:flex;align-items:center;justify-content:space-between}
 .nav-brand{font-family:'Fraunces',serif;font-weight:700;font-size:20px;color:#fff;letter-spacing:-.01em}
 .nav-brand span{color:var(--teal)}
 .nav-cta{background:var(--teal);color:#fff;font-size:13px;font-weight:500;padding:8px 20px;border-radius:6px;text-decoration:none;transition:background .2s,transform .15s}
 .nav-cta:hover{background:#178860;transform:translateY(-1px)}
-
+ 
 /* HERO */
 .hero{min-height:100vh;background:var(--navy);display:flex;align-items:center;position:relative;overflow:hidden;padding-top:60px}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 80% 30%,rgba(29,158,117,.12) 0%,transparent 60%),radial-gradient(ellipse 40% 60% at 10% 80%,rgba(26,86,160,.15) 0%,transparent 55%)}
@@ -46,7 +46,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .btn-primary:hover svg{transform:translateX(3px)}
 .hero-proof{font-size:13px;color:rgba(255,255,255,.38);display:flex;align-items:center;gap:6px}
 .hero-proof::before{content:'';display:block;width:16px;height:1px;background:rgba(255,255,255,.25)}
-
+ 
 /* Hero card */
 .hero-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:28px;backdrop-filter:blur(8px)}
 .hero-card-title{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:#fff;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.1)}
@@ -57,28 +57,28 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .stat-div{grid-column:1/-1;height:1px;background:rgba(255,255,255,.07)}
 .hero-card-bio{font-size:12px;line-height:1.6;color:rgba(255,255,255,.45)}
 .hero-card-bio strong{color:rgba(255,255,255,.75);font-weight:500}
-
+ 
 /* STRIP */
 .strip{background:var(--teal);padding:16px 0;overflow:hidden}
 .strip-inner{display:flex;gap:44px;animation:scroll-strip 28s linear infinite;white-space:nowrap;width:max-content}
 .strip-item{font-size:13px;font-weight:500;color:#fff;display:flex;align-items:center;gap:10px}
 .strip-item::before{content:'✦';opacity:.55;font-size:10px}
 @keyframes scroll-strip{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
+ 
 /* AUDIENCES */
 .audiences{background:#F8F9FB}
 .section-header{margin-bottom:48px}
 .section-header .label{margin-bottom:10px;display:block}
 .section-title{font-size:clamp(26px,3.8vw,40px);line-height:1.1}
 .section-sub{font-size:16px;line-height:1.7;color:var(--dgray);margin-top:10px;max-width:560px}
-
+ 
 .audience-tabs{display:flex;margin-bottom:36px;border:1px solid var(--mgray);border-radius:10px;overflow:hidden;width:fit-content}
 .tab-btn{padding:12px 28px;font-size:14px;font-weight:500;background:#fff;border:none;cursor:pointer;color:var(--dgray);transition:all .2s;font-family:'DM Sans',sans-serif}
 .tab-btn.active{background:var(--navy);color:#fff}
 .tab-btn:first-child{border-right:1px solid var(--mgray)}
 .tab-panel{display:none}
 .tab-panel.active{display:block}
-
+ 
 .pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:40px}
 .pain-card{background:#fff;border-radius:10px;padding:20px;border-top:3px solid var(--blue);transition:transform .2s,box-shadow .2s}
 .pain-card--teal{border-top-color:var(--teal)}
@@ -86,19 +86,19 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .pain-icon{font-size:22px;margin-bottom:10px}
 .pain-title{font-size:14px;font-weight:500;margin-bottom:6px;color:var(--navy)}
 .pain-desc{font-size:13px;line-height:1.6;color:var(--dgray)}
-
+ 
 .outcomes-title{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--navy);margin-bottom:18px}
 .outcome-list{display:flex;flex-direction:column;gap:10px}
 .outcome-item{display:flex;align-items:flex-start;gap:12px;background:#fff;border-radius:8px;padding:13px 16px;border-left:3px solid var(--teal);font-size:14px;line-height:1.6;color:var(--navy)}
 .outcome-check{color:var(--teal);font-size:16px;flex-shrink:0;margin-top:1px;font-weight:700}
-
+ 
 /* PROGRAMS */
 .programs{background:var(--navy);position:relative;overflow:hidden}
 .programs::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 85% 20%,rgba(29,158,117,.08) 0%,transparent 55%)}
 .programs .section-title{color:#fff}
 .programs .section-sub{color:rgba(255,255,255,.45)}
 .programs .label{color:var(--teal)}
-
+ 
 .program-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;position:relative}
 .program-card{border-radius:16px;padding:32px;position:relative;overflow:hidden;transition:transform .2s}
 .program-card:hover{transform:translateY(-4px)}
@@ -114,7 +114,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .prog-features li{font-size:13px;color:rgba(255,255,255,.65);padding:5px 0;display:flex;align-items:center;gap:8px;border-bottom:1px solid rgba(255,255,255,.07)}
 .prog-features li:last-child{border-bottom:none}
 .prog-features li::before{content:'→';color:rgba(255,255,255,.35);font-size:11px;flex-shrink:0}
-
+ 
 .avulsos{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:22px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;margin-top:20px}
 .avulsos-label{font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--teal);margin-bottom:4px;display:block}
 .avulsos-items{display:flex;gap:28px;flex-wrap:wrap}
@@ -122,7 +122,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .avulso-price{font-family:'Fraunces',serif;font-size:20px;font-weight:700;color:#fff;display:block;line-height:1}
 .avulso-lbl{font-size:11px;color:rgba(255,255,255,.4);margin-top:3px}
 .avulso-div{width:1px;background:rgba(255,255,255,.1);align-self:stretch}
-
+ 
 /* HOW */
 .how{background:#F8F9FB}
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
@@ -132,7 +132,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .step:nth-child(4) .step-num{background:var(--teal)}
 .step-title{font-size:13px;font-weight:500;color:var(--navy);margin-bottom:5px}
 .step-desc{font-size:12px;line-height:1.6;color:var(--dgray)}
-
+ 
 /* MENTOR */
 .mentor{background:#fff}
 .mentor-grid{display:grid;grid-template-columns:1fr 400px;gap:64px;align-items:center}
@@ -151,12 +151,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .mentor-tag--teal{background:rgba(29,158,117,.2);color:var(--teal)}
 .mentor-companies{border-top:1px solid rgba(255,255,255,.08);padding-top:16px;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.28);margin-bottom:10px}
 .company-list{font-size:13px;color:rgba(255,255,255,.5);line-height:1.8}
-
+ 
 /* DISCLAIMER */
 .disclaimer-section{background:var(--lgray);padding:32px 0}
 .disclaimer-box{background:#fff;border-left:4px solid var(--amber);border-radius:0 8px 8px 0;padding:16px 20px;font-size:13px;line-height:1.7;color:var(--dgray)}
 .disclaimer-box strong{color:var(--navy)}
-
+ 
 /* CTA */
 .cta-section{background:var(--navy);text-align:center;position:relative;overflow:hidden;padding:80px 0}
 .cta-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 80% at 50% 0%,rgba(29,158,117,.15) 0%,transparent 60%)}
@@ -168,16 +168,16 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,31,60,.96
 .cta-btn:hover{background:#178860;transform:translateY(-3px);box-shadow:0 10px 40px rgba(29,158,117,.45)}
 .cta-note{margin-top:18px;font-size:13px;color:rgba(255,255,255,.28)}
 .cta-english{margin-top:12px;font-size:12px;color:rgba(255,255,255,.22);font-style:italic}
-
+ 
 footer{background:#080F1D;padding:28px 24px;text-align:center}
 .footer-brand{font-family:'Fraunces',serif;font-size:17px;font-weight:700;color:#fff;margin-bottom:6px}
 .footer-brand span{color:var(--teal)}
 .footer-copy{font-size:12px;color:rgba(255,255,255,.22)}
-
+ 
 /* ANIMATIONS */
 .fade-in{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
 .fade-in.visible{opacity:1;transform:translateY(0)}
-
+ 
 /* RESPONSIVE */
 @media(max-width:768px){
   .hero-grid,.mentor-grid{grid-template-columns:1fr}
@@ -196,12 +196,12 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
 </style>
 </head>
 <body>
-
+ 
 <nav>
   <div class="nav-brand">Hired<span>USA</span></div>
   <a href="https://forms.gle/BdtdAG2ifRXoQFDc6" target="_blank" class="nav-cta">Quero me inscrever</a>
 </nav>
-
+ 
 <!-- HERO -->
 <section class="hero">
   <div class="container">
@@ -225,11 +225,11 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
         </div>
       </div>
       <div class="hero-card fade-in">
-        <div class="hero-card-title">Humberto Monteiro — mentor</div>
+        <div class="hero-card-title">Mentor Humberto Monteiro</div>
         <div class="stat-grid">
           <div class="stat-item">
             <span class="stat-num">100+</span>
-            <span class="stat-lbl">processos seletivos com empresas americanas</span>
+            <span class="stat-lbl">processos seletivos em empresas americanas</span>
           </div>
           <div class="stat-item">
             <span class="stat-num">4 anos</span>
@@ -237,12 +237,12 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
           </div>
           <div class="stat-div"></div>
           <div class="stat-item">
-            <span class="stat-num">4+/sem</span>
-            <span class="stat-lbl">contatos de recrutadores americanos</span>
+            <span class="stat-num">5+</span>
+            <span class="stat-lbl">contatos de recrutadores por semana no LinkedIn</span>
           </div>
           <div class="stat-item">
             <span class="stat-num">Fortune<br>500</span>
-            <span class="stat-lbl">entre as empresas que passou</span>
+            <span class="stat-lbl">entre as empresas em que trabalhou</span>
           </div>
         </div>
         <p class="hero-card-bio">Product & Program Manager. <strong>10 anos em TI</strong>, trabalhando 100% em inglês para empresas americanas <strong>remotamente do Brasil</strong>. Fintech, healthcare, gaming, logistics e IA.</p>
@@ -250,7 +250,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     </div>
   </div>
 </section>
-
+ 
 <!-- STRIP -->
 <div class="strip">
   <div class="strip-inner">
@@ -272,7 +272,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     <span class="strip-item">Networking nos EUA</span>
   </div>
 </div>
-
+ 
 <!-- AUDIENCES -->
 <section class="section audiences">
   <div class="container">
@@ -282,9 +282,9 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     </div>
     <div class="audience-tabs fade-in">
       <button class="tab-btn active" onclick="switchTab('brasil',this)">Estou no Brasil</button>
-      <button class="tab-btn" onclick="switchTab('eua',this)">Cheguei aos EUA</button>
+      <button class="tab-btn" onclick="switchTab('eua',this)">Cheguei nos EUA</button>
     </div>
-
+ 
     <div class="tab-panel active" id="tab-brasil">
       <div class="pain-grid">
         <div class="pain-card fade-in"><div class="pain-icon">💰</div><div class="pain-title">Quer ganhar em dólar sem sair do Brasil</div><div class="pain-desc">Trabalhar para empresa americana pode potencialmente dobrar sua remuneração — sem precisar se mudar.</div></div>
@@ -292,7 +292,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
         <div class="pain-card fade-in"><div class="pain-icon">📄</div><div class="pain-title">Nunca fez um resume no padrão americano</div><div class="pain-desc">O currículo brasileiro não funciona nos EUA. ATS, formato, linguagem — tudo é diferente.</div></div>
         <div class="pain-card fade-in"><div class="pain-icon">🔗</div><div class="pain-title">Não sabe usar o LinkedIn para recrutadores americanos</div><div class="pain-desc">Há uma forma específica de se posicionar no LinkedIn para atrair recrutadores americanos.</div></div>
         <div class="pain-card fade-in"><div class="pain-icon">🎯</div><div class="pain-title">Não sabe onde buscar vagas remotas</div><div class="pain-desc">Existem plataformas e estratégias específicas para encontrar vagas remotas em empresas americanas.</div></div>
-        <div class="pain-card fade-in"><div class="pain-icon">🚀</div><div class="pain-title">Quer abrir portas com experiência internacional</div><div class="pain-desc">Trabalhar para empresa americana, em inglês, com equipes globais transforma seu currículo e sua carreira.</div></div>
+        <div class="pain-card fade-in"><div class="pain-icon">✈️</div><div class="pain-title">Planeja imigrar? Comece antes de embarcar</div><div class="pain-desc">Quem já inicia uma jornada remota com empresas americanas pode chegar ao processo de imigração com mais experiência internacional, network e potencialmente maior segurança financeira — sem garantias, mas com vantagens reais.</div></div>
       </div>
       <div class="fade-in">
         <div class="outcomes-title">O que a mentoria Hired from Brazil orienta e ensina:</div>
@@ -303,13 +303,14 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
           <div class="outcome-item"><span class="outcome-check">✓</span><span>Construa resume e LinkedIn que <strong>chamam a atenção de recrutadores americanos</strong>.</span></div>
           <div class="outcome-item"><span class="outcome-check">✓</span><span><strong>Abra portas com experiência internacional</strong> — trabalhe com pessoas do mundo todo.</span></div>
           <div class="outcome-item"><span class="outcome-check">✓</span><span>Atue numa <strong>cultura focada em entregas e méritos</strong>, na maior economia do mundo.</span></div>
+          <div class="outcome-item"><span class="outcome-check">✓</span><span>Se você planeja imigrar, trabalhar remotamente pode ser uma forma de <strong>chegar mais preparado</strong> — com experiência internacional, network americano e potencialmente maior estabilidade financeira.</span></div>
         </div>
       </div>
     </div>
-
+ 
     <div class="tab-panel" id="tab-eua">
       <div class="pain-grid">
-        <div class="pain-card pain-card--teal fade-in"><div class="pain-icon">😰</div><div class="pain-title">Sua carreira parece ter parado na mudança</div><div class="pain-desc">Anos de conquistas no Brasil — mas no mercado americano parece que você começa do zero.</div></div>
+        <div class="pain-card pain-card--teal fade-in"><div class="pain-icon">😰</div><div class="pain-title">Sua carreira parece ter parado na mudança</div><div class="pain-desc">Anos de experiência no Brasil — mas no mercado americano parece que você começa do zero.</div></div>
         <div class="pain-card pain-card--teal fade-in"><div class="pain-icon">💸</div><div class="pain-title">Suas reservas estão diminuindo todo mês</div><div class="pain-desc">Cada semana sem emprego é dinheiro indo embora num país onde tudo custa em dólar.</div></div>
         <div class="pain-card pain-card--teal fade-in"><div class="pain-icon">🏆</div><div class="pain-title">O mercado americano é muito mais competitivo</div><div class="pain-desc">Profissionais de todo o mundo disputam as mesmas vagas. Saber se posicionar faz toda a diferença.</div></div>
         <div class="pain-card pain-card--teal fade-in"><div class="pain-icon">🎤</div><div class="pain-title">Entrevistas em inglês sob pressão são difíceis</div><div class="pain-desc">Falar inglês no dia a dia é diferente de responder perguntas técnicas e comportamentais numa entrevista.</div></div>
@@ -330,7 +331,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     </div>
   </div>
 </section>
-
+ 
 <!-- PROGRAMS -->
 <section class="section programs">
   <div class="container">
@@ -345,31 +346,109 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
         <div class="prog-name">Hired from<br>Brazil</div>
         <p class="prog-desc">Oriento você a construir resume, LinkedIn e estratégia de candidatura que funcionam no mercado americano — tudo do Brasil.</p>
         <div class="prog-price">$900</div>
-        <div class="prog-sessions">6 sessões de 1h &nbsp;·&nbsp; 3 a 6 meses</div>
-        <ul class="prog-features">
-          <li>Estratégia e diagnóstico personalizado</li>
-          <li>Resume e LinkedIn no padrão americano</li>
-          <li>Como buscar vagas remotas do Brasil</li>
-          <li>Entrevistas e processo seletivo americano</li>
-          <li>Negociação, contratos e onboarding</li>
-          <li>1 sessão livre à sua escolha</li>
-        </ul>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+          <div style="background:rgba(255,255,255,0.15);border-radius:20px;padding:5px 14px;font-size:13px;font-weight:600;color:#fff;white-space:nowrap">6 sessões de 1h</div>
+          <span style="font-size:12px;color:rgba(255,255,255,.4)">· 3 a 6 meses</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🎯</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Diagnóstico e estratégia</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Mapeamento do seu perfil e plano personalizado para o mercado americano</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">📄</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Resume e LinkedIn americanos</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Documentos ATS-friendly que atraem recrutadores americanos</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🔍</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Busca de vagas remotas do Brasil</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Plataformas, estratégias e como se candidatar sendo contractor</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🎤</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Entrevistas e processo seletivo</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Como funciona e como se preparar para o formato americano</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🤝</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Negociação, contratos e onboarding</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Como negociar taxa/hora, contratos PJ e os primeiros passos após a oferta</div>
+            </div>
+          </div>
+          <div style="border-top:1px solid rgba(255,255,255,.1);padding-top:10px;display:flex;gap:10px;align-items:center">
+            <span style="font-size:16px;flex-shrink:0">✨</span>
+            <div style="font-size:12px;color:rgba(255,255,255,.45)"><strong style="color:rgba(255,255,255,.7)">+ 1 sessão livre</strong> para aprofundar o tema que mais importa pra você</div>
+          </div>
+        </div>
       </div>
       <div class="program-card program-card--teal">
         <span class="prog-tag">Para imigrantes brasileiros nos EUA</span>
         <div class="prog-name">Land<br>& Hired</div>
         <p class="prog-desc">Oriento você a entrar no mercado americano com estratégia, usando sua experiência brasileira como diferencial.</p>
         <div class="prog-price">$1.200</div>
-        <div class="prog-sessions">8 sessões de 1h &nbsp;·&nbsp; 3 a 6 meses</div>
-        <ul class="prog-features">
-          <li>Estratégia e diagnóstico personalizado</li>
-          <li>Resume e LinkedIn no padrão americano</li>
-          <li>Onde e como buscar vagas nos EUA</li>
-          <li>Simulação real com hiring manager</li>
-          <li>Negociação de oferta e total compensation</li>
-          <li>Onboarding e cultura corporativa americana</li>
-          <li>1 sessão livre à sua escolha</li>
-        </ul>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+          <div style="background:rgba(255,255,255,0.15);border-radius:20px;padding:5px 14px;font-size:13px;font-weight:600;color:#fff;white-space:nowrap">8 sessões de 1h</div>
+          <span style="font-size:12px;color:rgba(255,255,255,.4)">· 3 a 6 meses</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🎯</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Diagnóstico e estratégia de recolocação</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Como traduzir e valorizar sua experiência brasileira no mercado americano</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">📄</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Resume e LinkedIn otimizados para os EUA</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Com foco em destacar impacto e resultados para o padrão americano</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🗺️</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Onde e como buscar vagas nos EUA</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Plataformas, networking, referrals e como abordar recrutadores</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🎤</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Entrevistas + simulação prática</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Treino de respostas e simulação no formato real de hiring manager</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">💰</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Estratégias de negociação de oferta</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Salário, benefícios, total compensation — como negociar com segurança</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:10px;align-items:flex-start">
+            <span style="font-size:16px;flex-shrink:0;margin-top:1px">🏢</span>
+            <div>
+              <div style="font-size:13px;font-weight:500;color:#fff;margin-bottom:2px">Onboarding e cultura corporativa americana</div>
+              <div style="font-size:12px;color:rgba(255,255,255,.5)">Como se posicionar nos primeiros meses e crescer na nova empresa</div>
+            </div>
+          </div>
+          <div style="border-top:1px solid rgba(255,255,255,.1);padding-top:10px;display:flex;gap:10px;align-items:center">
+            <span style="font-size:16px;flex-shrink:0">✨</span>
+            <div style="font-size:12px;color:rgba(255,255,255,.45)"><strong style="color:rgba(255,255,255,.7)">+ 1 sessão livre</strong> para aprofundar o tema que mais importa pra você</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="avulsos fade-in">
@@ -380,30 +459,38 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
       <div class="avulsos-items">
         <div class="avulso-item"><span class="avulso-price">Grátis</span><div class="avulso-lbl">Diagnóstico · 15 min</div></div>
         <div class="avulso-div"></div>
-        <div class="avulso-item"><span class="avulso-price">$120</span><div class="avulso-lbl">Sessão Consultiva · 30 min</div></div>
+        <div class="avulso-item">
+          <span class="avulso-price">$120</span>
+          <div class="avulso-lbl">Sessão Consultiva · 30 min</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.3);margin-top:3px">Mentorado ativo: $80</div>
+        </div>
         <div class="avulso-div"></div>
-        <div class="avulso-item"><span class="avulso-price">$200</span><div class="avulso-lbl">Sessão Completa · 60 min</div></div>
+        <div class="avulso-item">
+          <span class="avulso-price">$200</span>
+          <div class="avulso-lbl">Sessão Completa · 60 min</div>
+          <div style="font-size:10px;color:rgba(255,255,255,.3);margin-top:3px">Mentorado ativo: $120</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
+ 
 <!-- HOW IT WORKS -->
 <section class="section how">
   <div class="container">
     <div class="section-header fade-in" style="text-align:center;max-width:520px;margin:0 auto 52px">
       <span class="label">Como funciona</span>
-      <h2 class="display section-title">Do primeiro contato<br>ao emprego conquistado</h2>
+      <h2 class="display section-title">Da estratégia ao<br>próximo nível da sua carreira</h2>
     </div>
     <div class="steps fade-in">
       <div class="step"><div class="step-num">1</div><div class="step-title">Diagnóstico gratuito</div><div class="step-desc">15 minutos para entender seu momento, objetivos e como a mentoria pode te orientar.</div></div>
       <div class="step"><div class="step-num">2</div><div class="step-title">Estratégia personalizada</div><div class="step-desc">Primeira sessão define seu foco e o plano de ação da mentoria para o seu perfil.</div></div>
-      <div class="step"><div class="step-num">3</div><div class="step-title">Sessões semanais</div><div class="step-desc">Trilha estruturada com sessões livres para adaptar à sua evolução no processo.</div></div>
-      <div class="step"><div class="step-num">4</div><div class="step-title">Oferta conquistada</div><div class="step-desc">Orientação até a negociação, assinatura da offer letter e dicas de onboarding.</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-title">Sessões estruturadas</div><div class="step-desc">Trilha estruturada com direito a uma sessão livre para adaptar à sua evolução no processo.</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-title">Orientação completa</div><div class="step-desc">Orientação sobre negociação e assinatura de oferta e dicas sobre a cultura corporativa americana.</div></div>
     </div>
   </div>
 </section>
-
+ 
 <!-- MENTOR -->
 <section class="section mentor">
   <div class="container">
@@ -415,12 +502,12 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
           <div class="mstat"><span class="mstat-num">10 anos</span><span class="mstat-lbl">de experiência em TI</span></div>
           <div class="mstat"><span class="mstat-num">4 anos</span><span class="mstat-lbl">trabalhando do Brasil para empresas americanas</span></div>
           <div class="mstat"><span class="mstat-num">100+</span><span class="mstat-lbl">processos seletivos com empresas americanas</span></div>
-          <div class="mstat"><span class="mstat-num">4+/sem</span><span class="mstat-lbl">contatos de recrutadores americanos no LinkedIn</span></div>
+          <div class="mstat"><span class="mstat-num">5+</span><span class="mstat-lbl">contatos de recrutadores americanos por semana no LinkedIn</span></div>
         </div>
         <div class="mentor-bio">
           <p>Humberto tem 10 anos de experiência em TI como <strong>Product e Program Manager</strong>, dos quais 4 anos trabalhando 100% em inglês para empresas americanas — <strong>remotamente, a partir do Brasil</strong>.</p>
           <p>Passou por grandes corporações como a <strong>Global Payments</strong> (Fortune 500 e S&P 500), startups e consultorias de IA, em indústrias como <strong>fintech, healthcare, freight & logistics, gaming e consulting</strong>.</p>
-          <p>Fez mais de <strong>100 processos seletivos</strong> com empresas americanas, chegou à etapa final no Google e mantém um LinkedIn tão bem posicionado que recebe <strong>mais de 4 contatos de recrutadores americanos por semana</strong>.</p>
+          <p>Fez mais de <strong>100 processos seletivos</strong> com empresas americanas, chegou à etapa final no Google e mantém um LinkedIn tão bem posicionado que recebe <strong>mais de 5 contatos de recrutadores americanos por semana</strong>.</p>
         </div>
       </div>
       <div class="mentor-card fade-in">
@@ -441,7 +528,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     </div>
   </div>
 </section>
-
+ 
 <!-- DISCLAIMER -->
 <div class="disclaimer-section">
   <div class="container">
@@ -450,7 +537,7 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     </div>
   </div>
 </div>
-
+ 
 <!-- CTA -->
 <section class="cta-section" id="cta">
   <div class="container">
@@ -465,12 +552,12 @@ footer{background:#080F1D;padding:28px 24px;text-align:center}
     <div class="cta-english">Um nível conversacional de inglês é necessário — avaliado informalmente no diagnóstico.</div>
   </div>
 </section>
-
+ 
 <footer>
   <div class="footer-brand">Hired<span>USA</span></div>
   <p class="footer-copy">© 2026 Hired USA · Mentoria de Carreira para o Mercado Americano</p>
 </footer>
-
+ 
 <script>
 function switchTab(tab, btn) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
